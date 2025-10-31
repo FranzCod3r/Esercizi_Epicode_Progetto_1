@@ -1,4 +1,3 @@
-
 #In una biblioteca digitale si vuole realizzare un piccolo sistema software per gestire libri,
 #  utenti e prestiti.
 
