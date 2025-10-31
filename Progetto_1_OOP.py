@@ -102,7 +102,7 @@ class Prestito:
 print("--- Libri in Prestito ---")
 
 libro1 = Libro("Il nome della rosa", "Umberto Eco", 1980, 3)
-libro2 = Libro("I Fratelli Karamazov", "Fedor Dostoevskij", 1880, 0)
+libro2 = Libro("I Fratelli Karamazov", "Fedor Dostoevskij", 1880, 0)  #numero copie 0
 libro3 = Libro("Cent'anni di solitudine", "Gabriel García Márquez", 1967, 4)
 libro4 = Libro("Orgoglio e pregiudizio", "Jane Austen", 1813, 5)
 
@@ -116,6 +116,7 @@ prestito3 = Prestito.presta_libro(utente3, libro4, 7)
 prestito1.dettagli()
 prestito3.dettagli()
 
+#Gestione delle eccezioni - libro2 con 0 copie
 try:
     prestito2 = Prestito.presta_libro(utente2, libro2, 5)  
     prestito2.dettagli()
